@@ -4,8 +4,78 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Pallagani New Tejasri - Portfolio</title>
-<link rel="stylesheet" href="style.css">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f0f4f8;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(135deg,#0077cc,#005fa3);
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+header h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:18px;
+}
+
+section{
+    background:white;
+    width:85%;
+    max-width:900px;
+    margin:25px auto;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+section:hover{
+    transform:translateY(-5px);
+}
+
+h2{
+    color:#0077cc;
+    margin-bottom:15px;
+    border-bottom:2px solid #0077cc;
+    display:inline-block;
+    padding-bottom:5px;
+}
+
+ul{
+    margin-left:20px;
+}
+
+ul li{
+    margin-bottom:10px;
+}
+
+footer{
+    background:#0077cc;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+</style>
 </head>
+
 <body>
 
 <header>
@@ -15,7 +85,20 @@
 
 <section>
     <h2>About Me</h2>
-    <p>I am Pallagani New Tejasri, pursuing B.Tech CSE-IoT at Ramachandra College of Engineering, Eluru.</p>
+    <p>
+        I am Pallagani New Tejasri, currently pursuing B.Tech in Computer
+        Science and Engineering (IoT) at Ramachandra College of Engineering,
+        Eluru. I am interested in Web Development and IoT-based technologies
+        and eager to learn new skills and build innovative solutions.
+    </p>
+</section>
+
+<section>
+    <h2>Education</h2>
+    <p>
+        <strong>Degree:</strong> B.Tech (CSE-IoT)<br><br>
+        <strong>College:</strong> Ramachandra College of Engineering, Eluru
+    </p>
 </section>
 
 <section>
@@ -29,20 +112,25 @@
 
 <section>
     <h2>Project</h2>
-    <p>Artificial Intelligence IoT-Based ECG Monitoring</p>
+    <h3>Artificial Intelligence IoT-Based ECG Monitoring</h3>
+    <p>
+        Developed an AI and IoT-based ECG monitoring system to monitor heart
+        activity in real time and assist in the early detection of cardiac
+        abnormalities.
+    </p>
 </section>
 
 <section>
-    <h2>Contact</h2>
-    <p>Email: tejasripallagani25@gmail.com</p>
-    <p>Mobile: 9390746624</p>
-    <button onclick="contactMe()">Contact Me</button>
+    <h2>Contact Information</h2>
+    <p>
+        <strong>Email:</strong> tejasripallagani25@gmail.com<br><br>
+        <strong>Mobile:</strong> +91 9390746624
+    </p>
 </section>
 
 <footer>
-    <p>&copy; 2026 Pallagani New Tejasri</p>
+    <p>&copy; 2026 Pallagani New Tejasri. All Rights Reserved.</p>
 </footer>
 
-<script src="script.js"></script>
 </body>
 </html>
